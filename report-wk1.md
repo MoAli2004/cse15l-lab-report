@@ -11,6 +11,6 @@ To remotely connect via `ssh`, you first need to set up a password for your temp
 ![image1](https://user-images.githubusercontent.com/46171121/211907242-3cbf304d-d0fa-45e9-8428-68a2d219a62a.png)
 
 ### Trying Some Commands
-Now that you've remotely connected, try some commands. SOme especially useful/basic commands you may want to mess around with are `ls`, `cd`, `mkdir`, `cat`. For example, the screenshot below shows the process of creating a directory in `~` named `hello`, going into that directory, creating a text file named `world.txt` with the contents `foobar`, and then printing out the contents of `world.txt`.
+Now that you've remotely connected, try some commands. Some especially useful/basic commands you may want to mess around with are `ls`, `cd`, `mkdir`, `cat`. For example, the screenshot below shows the process of creating a directory in `~` named `hello`, going into that directory, creating a text file named `world.txt` with the contents `foobar`, and then printing out the contents of `world.txt`.
 
 ![image10](https://user-images.githubusercontent.com/46171121/211907276-7070f912-ebfc-455f-a857-8d839ae6e382.png)
