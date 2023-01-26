@@ -22,26 +22,26 @@ Now that you've remotely connected, try some commands. Some especially useful/ba
 * `cat` outputs text
 
 For example, the following sequence of commands creates a directory in `~` named `hello`, changes into that directory, creates a text file named `world.txt` with the contents `foobar`, and then prints out the contents of `world.txt`:
-1. `mkdir hello` to make a directory named `hello/`
+* `mkdir hello` to make a directory named `hello/`
 
 ![image](https://user-images.githubusercontent.com/46171121/214733028-7ba9c080-5be8-4f4e-8a9e-89c72a322316.png)
 
-2. `ls` to show that the `hello/` directory was created
+* `ls` to show that the `hello/` directory was created
 
 ![image](https://user-images.githubusercontent.com/46171121/214733070-7a255787-4bfb-4bfa-9843-ac51823183ce.png)
 
-3. `cd hello` to change into the `hello/` directory
+* `cd hello` to change into the `hello/` directory
 
 ![image](https://user-images.githubusercontent.com/46171121/214733114-6c00f8eb-7524-4f22-8e1e-2362e5d0ecc9.png)
 
-5. `cat > world.txt` to output the text provided by the user into a new file named `world.txt`
+* `cat > world.txt` to output the text provided by the user into a new file named `world.txt`
 
 ![image](https://user-images.githubusercontent.com/46171121/214733243-adbb4c34-5668-47c8-a599-445aa5e16e9f.png)
 
-5. `ls` to show that the `world.txt` file was created
+* `ls` to show that the `world.txt` file was created
 
 ![image](https://user-images.githubusercontent.com/46171121/214733300-826928f9-cb08-440e-a979-1766f6cc5757.png)
 
-6. `cat world.txt` to output the text in the file to the terminal
+* `cat world.txt` to output the text in the file to the terminal
 
 ![image](https://user-images.githubusercontent.com/46171121/214733344-1a9e3cb4-f496-4d24-ad2a-1e4a543e7eec.png)
