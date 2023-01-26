@@ -90,6 +90,8 @@ The method `StringHandler.handleRequest(URI url)` is called with the argument be
 
 ## Part 2: Bug Test
 
+The chosen bug is in the `ArrayExamples.averageWithoutLowest(double[])` method.
+
 ### Failing input
 ```java
 @Test
