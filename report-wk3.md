@@ -102,6 +102,23 @@ public void testAverageWithoutLowest()
 }
 ```
 
+```
+JUnit version 4.13.2
+.E
+Time: 0.005
+There was 1 failure:
+1) testAverageWithoutLowest(ArrayTests)
+java.lang.AssertionError: expected:<1.0> but was:<0.0>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:555)
+        at org.junit.Assert.assertEquals(Assert.java:685)
+        at ArrayTests.testAverageWithoutLowest(ArrayTests.java:32)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+```
+
 ### Passing input
 ```java
 @Test
@@ -110,6 +127,14 @@ public void testAverageWithoutLowest()
     double[] input1 = { 1.0, 2.0, 4.0, };
     assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 1e-9);
 }
+```
+
+```
+JUnit version 4.13.2
+.
+Time: 0.005
+
+OK (1 test)
 ```
 
 ### Bug fix
