@@ -93,6 +93,7 @@ The method `StringHandler.handleRequest(URI url)` is called with the argument be
 The chosen bug is in the `ArrayExamples.averageWithoutLowest(double[])` method.
 
 ### Failing input
+**Test**
 ```java
 @Test
 public void testAverageWithoutLowest()
@@ -102,6 +103,7 @@ public void testAverageWithoutLowest()
 }
 ```
 
+**Output**
 ```
 JUnit version 4.13.2
 .E
@@ -120,6 +122,7 @@ Tests run: 1,  Failures: 1
 ```
 
 ### Passing input
+**Test**
 ```java
 @Test
 public void testAverageWithoutLowest()
@@ -129,6 +132,7 @@ public void testAverageWithoutLowest()
 }
 ```
 
+**Output**
 ```
 JUnit version 4.13.2
 .
