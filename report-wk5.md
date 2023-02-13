@@ -4,7 +4,7 @@
 
 All of the following options were found in the GNU `grep` manual page at [https://www.gnu.org/software/grep/manual/grep.html](https://www.gnu.org/software/grep/manual/grep.html). Their respective sections where further details can be found have been written down (e.g. 2.1.6).
 
-1. `-r` (2.1.6) Takes directory(ies) as input instead of file(s). Reads all files in the given directory and its subdirectories, recursively.
+1. `-r` **(2.1.6)** Takes directory(ies) as input instead of file(s). Reads all files in the given directory and its subdirectories, recursively.
     1. *Input.*
 
         ```bash
@@ -45,7 +45,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
         *Explanation.* Here we combine the `-r` option with the `-l` option (which we learned in lab), which only shows the names of files with matches. The `grep` command now lists all files in `./written_2/` that contain the phrase "tasty", including subdirectories, which is why it finds files in several different subdirectories, despite only supplying the parent directory. Again, this is useful because without the `-r` option, we'd have to pass the files as arguments individually (e.g. `./written_2/travel_guides/berlitz2/*.txt ./written_2/travel_guides/berlitz1/*.txt ...` etc.).
 
-1. `-L` (2.1.3) Displays which files do *not* contain any matches.
+1. `-L` **(2.1.3)** Displays which files do *not* contain any matches.
     1. *Input.*
 
         ```bash
@@ -93,7 +93,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
         *Explanation.* This time, we combine the `-L` option with the `-r` option, which was covered in the previous section. Now, the `grep` command lists all files in the `./written_2/` directory (and all subdirectories, recursively) that do *not* contain the phrase "sea". Maybe this is useful if we really hate the ocean (though "sea" matches more than just the word "sea", such as "**sea**son").
 
-1. `-n` (2.1.4) Displays line numbers of matches.
+1. `-n` **(2.1.4)** Displays line numbers of matches.
     1. *Input.*
 
         ```bash
@@ -140,7 +140,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
         *Explanation.* Again, we combine the `-n` option with the `-r` option to search all files in the `./written_2/` directory (and its subdirectories, recursively). This time, we see all matches for the phrase "sauce" along with their line numbers. This could be useful if we really want to know about all the different sauces in all these countries but also want to do some further reading (in which case the line numbers tell us where to look).
 
-1. `-C x` (2.1.5) Displays **x** lines of context before and after matches.
+1. `-C x` **(2.1.5)** Displays **x** lines of context before and after matches.
     1. *Input.*
 
         ```bash
