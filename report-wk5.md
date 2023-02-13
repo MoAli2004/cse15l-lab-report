@@ -6,6 +6,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
 1. `-r` (2.1.6) Takes directory(ies) as input instead of file(s). Reads all files in the given directory and its subdirectories, recursively.
     1. *Input.*
+
         ```bash
         grep "greetings" -r ./written_2/
         ```
@@ -19,6 +20,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
         *Explanation.* The `grep` command searches for matches of the phrase "greetings" in every file in `./written_2/`, including subdirectories, which is why it finds text files in `./written_2/travel_guides/berlitz2/`. This is useful because the wildcard `<dir>/*.txt` only lists files in the `<dir>` directory, excluding subdirectories.
 
     1. *Input.*
+
         ```bash
         grep "tasty" -rl ./written_2/
         ```
@@ -45,6 +47,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
 1. `-L` (2.1.3) Displays which files do *not* contain any matches.
     1. *Input.*
+
         ```bash
         grep "where" -L ./written_2/non-fiction/OUP/Castro/*.txt
         ```
@@ -58,6 +61,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
         *Explanation.* The `grep` command lists all text files in the directory `./written_2/non-fiction/OUP/Castro/` which do *not* contain the phrase "where", which leaves only `chW.txt` and `chY.txt`. This exclusive behavior is extremely useful. For example, if we have a bunch of submitted coursework with their respective submitter's name at the top of each file, we could use the `-L` option to exclude all files that contain a person's name, so that the only files that are listed are those that *don't* contain their name.
     
     1. *Input.*
+
         ```bash
         grep "sea" -rL ./written_2/
         ```
@@ -91,6 +95,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
 1. `-n` (2.1.4) Displays line numbers of matches.
     1. *Input.*
+
         ```bash
         grep "Lucayans" -n ./written_2/travel_guides/berlitz2/*.txt
         ```
@@ -104,6 +109,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
         *Explanation.* The `grep` command shows the line numbers "6" and "7". This is useful for quickly locating where the matches occur (since normally, it only displays the line itself).
 
     1. *Input.*
+
         ```bash
         grep "sauce" -rn ./written_2/
         ```
@@ -136,6 +142,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
 
 1. `-C x` (2.1.5) Displays **x** lines of context before and after matches.
     1. *Input.*
+
         ```bash
         grep "sauce" -C 5 ./written_2/travel_guides/berlitz1/IntroFrance.txt
         ```
@@ -158,6 +165,7 @@ All of the following options were found in the GNU `grep` manual page at [https:
         *Explanation.* The `grep` command displays the matched line (in the middle) plus 10 lines of context (5 before and 5 after). This makes the output a lot more readable/understandable for humans, since the matched line is often not a complete sentence. Looking at the output above, we can actually understand the context for why the word "sauce" comes up and can actually read some interesting information.
 
     1. *Input.*
+
         ```bash
         grep "Lucayans" -C 3 -rn ./written_2/
         ```
