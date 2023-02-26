@@ -42,7 +42,7 @@
 
     *Keys pressed* `<up><up><up><enter>`, `<up><up><up><enter`
     
-    Both the compile and run commands were already run previously (step 3), so I could just go back to them with three <up> presses.
+    Both the compile and run commands were already run previously (step 3), so I could just go back to them with three `<up>` presses.
 
 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
   
@@ -51,5 +51,3 @@
     *Keys pressed* `git stage .<enter>`, `git commit -m "Fix merge method"<enter>`, `git push<enter>`
   
     None of the git commands were stored in the terminal history or clipboard, so I just had to manually type them all out.
-
-  
