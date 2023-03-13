@@ -67,7 +67,7 @@ Note: I also added an extra test named `testFilter`, since the given test file d
     ![image](https://user-images.githubusercontent.com/46171121/224591163-675c89d7-3c90-4c36-91f5-089a303c800c.png)
 
 * Incorrect implementation (GitHub repository: https://github.com/ucsd-cse15l-f22/list-methods-lab3)
-    ![image](https://user-images.githubusercontent.com/46171121/224590918-e9edbe63-aff7-43e4-a545-8c97cda62a69.png)
+    ![image](https://user-images.githubusercontent.com/46171121/224591888-f878303e-8f2c-49fc-848e-da48ab2820ce.png)
 
 * Subtly incorrect implementation (GitHub repository: https://github.com/ucsd-cse15l-f22/list-examples-subtle)
     ![image](https://user-images.githubusercontent.com/46171121/224591731-75cf881a-4ad6-4433-80b8-c465b58cf14c.png)
